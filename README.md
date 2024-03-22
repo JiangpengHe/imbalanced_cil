@@ -46,3 +46,5 @@ bash main.sh Food101 gradient_reweighting 0 ltio 50 6 20
 bash main.sh imagenet_1000 gradient_reweighting 0 conv 10 10 50
 ```
 ```
+### Acknolwedgement:
+The main implementation of this repository is borrowed from "Long-Tailed Class-Incremental Learning": https://github.com/xialeiliu/Long-Tailed-CIL
