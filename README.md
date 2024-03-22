@@ -1,6 +1,6 @@
-# Code Implementation for CVPR 2024 Submission (PaperID:1806)
+# Gradient Reweighting: Towards Imbalanced Class-Incremental Learning [CVPR 2024] 
 
-This repository contains the source code for our CVPR 2024 submission (PaperID:1806). It includes all necessary scripts to replicate the experiments and results presented in the paper.
+This repository is the official PyTorch implementation of **LGradient Reweighting: Towards Imbalanced Class-Incremental Learning**([arxiv]https://arxiv.org/abs/2402.18528).
 
 ## Training Instructions
 
