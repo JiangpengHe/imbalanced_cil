@@ -1,6 +1,6 @@
 # Gradient Reweighting: Towards Imbalanced Class-Incremental Learning [CVPR 2024] 
 
-This repository is the official PyTorch implementation of **LGradient Reweighting: Towards Imbalanced Class-Incremental Learning**([arxiv]https://arxiv.org/abs/2402.18528).
+This repository is the official PyTorch implementation of **Gradient Reweighting: Towards Imbalanced Class-Incremental Learning**([arxiv]https://arxiv.org/abs/2402.18528).
 
 ## Training Instructions
 
