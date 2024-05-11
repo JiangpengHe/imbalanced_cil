@@ -4,7 +4,7 @@ This repository is the official PyTorch implementation of **Gradient Reweighting
 
 ## Training Instructions
 
-To run the code, execute the provided bash script with the following format:
+To run the code, navigate to /script/ and execute the provided bash script with the following format:
 
 ```
 bash main.sh <dataset> <approach> <gpu> <scenario> <initial_classes> <total_tasks>
