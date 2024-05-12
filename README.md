@@ -2,10 +2,6 @@
 
 This repository is the official PyTorch implementation of **Gradient Reweighting: Towards Imbalanced Class-Incremental Learning**([arxiv]https://arxiv.org/abs/2402.18528).
 
-## Dataset Preparation
-
-
-
 
 ## Training Instructions
 
