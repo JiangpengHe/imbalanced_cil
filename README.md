@@ -2,6 +2,11 @@
 
 This repository is the official PyTorch implementation of **Gradient Reweighting: Towards Imbalanced Class-Incremental Learning**([arxiv]https://arxiv.org/abs/2402.18528).
 
+## Dataset Preparation
+
+
+
+
 ## Training Instructions
 
 To run the code, navigate to /script/ and execute the provided bash script with the following format:
