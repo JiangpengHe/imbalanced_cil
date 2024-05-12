@@ -38,12 +38,12 @@ bash main.sh imagenet_subset DGR 0 lt 50 11
 
 - Ordered long-tailed case with LFH, 5 tasks on Food101:
 ```
-bash main.sh Food101 DGR 0 ltio 50 6
+bash main.sh Food101 DGR 0 ltio 51 6
 ```
 
 - Conventional case with LFS, 10 tasks on ImageNet_1000:
 ```
-bash main.sh imagenet_1000 DGR 0 conv 10 10
+bash main.sh imagenet_1000 DGR 0 conv 100 10
 ```
 
 ### Reference:
