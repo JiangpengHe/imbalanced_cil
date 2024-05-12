@@ -59,4 +59,4 @@ If you find this work useful, please cite us by:
 
 
 ### Acknowledgment:
-The main implementation of this repository is borrowed from "Long-Tailed Class-Incremental Learning": https://github.com/xialeiliu/Long-Tailed-CIL
+The main implementation of this repository and existing methods are obtained from "Long-Tailed Class-Incremental Learning": https://github.com/xialeiliu/Long-Tailed-CIL
