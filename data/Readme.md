@@ -6,7 +6,7 @@ The dataset will be downloaded automatically to `./cifar100/`
 ## ImageNetSubset
 Include the training file: train.txt and the test file: test.txt in `./ImageNetSubset/`
 
-## ImageNet-1000 
+## ImageNet 
 Include the training file: train.txt and the test file: test.txt in `./imagenet_1000/` 
 
 ## Food-101
