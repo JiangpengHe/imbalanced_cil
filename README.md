@@ -46,5 +46,17 @@ bash main.sh Food101 DGR 0 ltio 50 6
 bash main.sh imagenet_1000 DGR 0 conv 10 10
 ```
 
-### Acknolwedgement:
+### Reference:
+If you find this work useful, please cite us by: 
+```
+@article{he2024gradient,
+  title={Gradient Reweighting: Towards Imbalanced Class-Incremental Learning},
+  author={He, Jiangpeng},
+  journal={IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2024}
+}
+```
+
+
+### Acknowledgment:
 The main implementation of this repository is borrowed from "Long-Tailed Class-Incremental Learning": https://github.com/xialeiliu/Long-Tailed-CIL
