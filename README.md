@@ -8,15 +8,15 @@ This repository is the official PyTorch implementation of **Gradient Reweighting
 To run the code, navigate to /script/ and execute the provided bash script with the following format:
 
 ```
-bash main.sh <dataset> <approach> <gpu> <scenario> <initial_classes> <total_tasks>
+bash main.sh <approach> <gpu> <dataset> <scenario> <initial_classes> <total_tasks>
 ```
 
 ### Parameter Specifications:
 
-- `<dataset>`: Dataset to be used (Options: `cifar100`, `imagenet_subset`, `imagenet_1000`, `Food101`).
 - `<approach>`: Approach to be used, located in `./src/approaches/`.
   - `DGR`: our proposed Decoupled Gradients Reweighting (DGR) method.
 - `<gpu>`: Index of the GPU to run the experiment.
+- `<dataset>`: Dataset to be used (Options: `cifar100`, `imagenet_subset`, `imagenet_1000`, `Food101`).
 - `<scenario>`: Learning scenario, including:
   - `conv`: Conventional CIL.
   - `lt`: Shuffled long-tailed scenario (experiments in main paper).
@@ -28,22 +28,22 @@ bash main.sh <dataset> <approach> <gpu> <scenario> <initial_classes> <total_task
 
 - Shuffled long-tailed case with LFS, 20 tasks on CIFAR100:
 ```
-bash main.sh cifar100 DGR 0 lt 5 20
+bash main.sh DGR 0 cifar100 lt 5 20
 ```
 
 - Shuffled long-tailed case with LFH, 10 tasks on ImageNetSubset:
 ```
-bash main.sh imagenet_subset DGR 0 lt 50 11
+bash main.sh DGR 0 imagenet_subset lt 50 11
 ```
 
 - Ordered long-tailed case with LFH, 5 tasks on Food101:
 ```
-bash main.sh Food101 DGR 0 ltio 51 6
+bash main.sh DGR 0 Food101 ltio 51 6
 ```
 
 - Conventional case with LFS, 10 tasks on ImageNet_1000:
 ```
-bash main.sh imagenet_1000 DGR 0 conv 100 10
+bash main.sh DGR 0 imagenet_1000 conv 100 10
 ```
 
 ### Reference:
