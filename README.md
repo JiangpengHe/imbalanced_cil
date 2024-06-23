@@ -1,6 +1,6 @@
 # Gradient Reweighting: Towards Imbalanced Class-Incremental Learning [CVPR 2024] 
 
-This repository is the official PyTorch implementation of **Gradient Reweighting: Towards Imbalanced Class-Incremental Learning**([arxiv]https://arxiv.org/abs/2402.18528).
+This repository is the official PyTorch implementation of **Gradient Reweighting: Towards Imbalanced Class-Incremental Learning**(https://openaccess.thecvf.com/content/CVPR2024/html/He_Gradient_Reweighting_Towards_Imbalanced_Class-Incremental_Learning_CVPR_2024_paper.html).
 
 
 ## Training Instructions
@@ -49,11 +49,13 @@ bash main.sh DGR 0 imagenet_1000 conv 100 10
 ### Reference:
 If you find this work useful, please cite us by: 
 ```
-@article{he2024gradient,
-  title={Gradient Reweighting: Towards Imbalanced Class-Incremental Learning},
-  author={He, Jiangpeng},
-  journal={IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  year={2024}
+@article{He_2024_CVPR,
+    author    = {He, Jiangpeng},
+    title     = {Gradient Reweighting: Towards Imbalanced Class-Incremental Learning},
+    journal = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {16668-16677}
 }
 ```
 
