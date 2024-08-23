@@ -46,6 +46,10 @@ bash main.sh DGR 0 Food101 ltio 51 6
 bash main.sh DGR 0 imagenet_1000 conv 100 10
 ```
 
+### Running with Pre-trained Models:
+The implementation of our method DGR by using Pre-Trained Models (PTM) is available in /Continual Learning with Pretrained Models/
+
+
 ### Reference:
 If you find this work useful, please cite us by: 
 ```
