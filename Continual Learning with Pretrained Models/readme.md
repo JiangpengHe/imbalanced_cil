@@ -1,4 +1,4 @@
-## This branch includes the implementation of our DGR under the continual learning setup using pre-trained models 
+## This branch includes the implementation of our DGR under the continual learning setup using pre-trained models on various balanced datasets
 
 
 - `FineTune`: Baseline method which simply updates parameters on new tasks.
