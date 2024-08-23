@@ -47,7 +47,7 @@ bash main.sh DGR 0 imagenet_1000 conv 100 10
 ```
 
 ### Running with Pre-trained Models:
-The implementation of our method DGR by using Pre-Trained Models (PTM) is available in /Continual Learning with Pretrained Models/
+The implementation of our method DGR by using Pre-Trained Models (PTM) is available in '/Continual Learning with Pretrained Models/'
 
 
 ### Reference:
