@@ -19,7 +19,7 @@
 - `DGR`: Gradient Reweighting: Towards Imbalanced Class-Incremental Learning. CVPR 2024 [[paper](https://openaccess.thecvf.com/content/CVPR2024/papers/He_Gradient_Reweighting_Towards_Imbalanced_Class-Incremental_Learning_CVPR_2024_paper.pdf)]
 
 
-### 🗂️ Dependencies
+### Dependencies
 
 1. [torch 2.0.1](https://github.com/pytorch/pytorch)
 2. [torchvision 0.15.2](https://github.com/pytorch/vision)
@@ -28,7 +28,7 @@
 5. [numpy](https://github.com/numpy/numpy)
 6. [scipy](https://github.com/scipy/scipy)
 
-### 🔑 Run experiment
+### Run experiment
 
 1. Edit the `[MODEL NAME].json` file for global settings and hyperparameters.
 2. Run:
