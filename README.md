@@ -2,6 +2,10 @@
 
 This repository is the official PyTorch implementation of **Gradient Reweighting: Towards Imbalanced Class-Incremental Learning** [[paper]](https://openaccess.thecvf.com/content/CVPR2024/html/He_Gradient_Reweighting_Towards_Imbalanced_Class-Incremental_Learning_CVPR_2024_paper.html).
 
+## Running with Pre-trained Models:
+The implementation of our method **DGR** by using Pre-Trained Models (PTM) is also available in **LAMDA-PILOT**: https://github.com/sun-hailong/LAMDA-PILOT
+
+A duplicate of the implementation can be found in '/Continual Learning with Pretrained Models/'
 
 ## Training Instructions
 
@@ -45,9 +49,6 @@ bash main.sh DGR 0 Food101 ltio 51 6
 ```
 bash main.sh DGR 0 imagenet_1000 conv 100 10
 ```
-
-### Running with Pre-trained Models:
-The implementation of our method DGR by using Pre-Trained Models (PTM) is available in '/Continual Learning with Pretrained Models/'
 
 
 ### Reference:
